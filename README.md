@@ -22,7 +22,7 @@ source .venv/bin/activate.fish
 fastapi dev src/api/main.py
 ```
 
-Запускаем воркер для обработки задач из очереди
+Запускаем воркер для обработки задач из очереди (можно запустить несколько в разных терминалах)
 ```shell
 uv run python -m worker
 ```
