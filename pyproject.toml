@@ -73,6 +73,7 @@ ignore = [
     "RUF002", # Allow cyrillic symbol in docstring
     "RUF003", # Allow cyrillic symbol in comments
     "TRY003", # long exception messages from `tryceratops`
+    "T201",
     "FIX", # Allow fixmes
     "TD", # Allow todos
     "S",
